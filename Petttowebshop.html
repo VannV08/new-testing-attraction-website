@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Treat Your Pets</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="header">
+        <div class="picture" style="margin-left: 10px;">
+            <img src="photo_2023-08-10_19-34-52.jpg" alt="">
+        </div>
+        <div class="text">
+            <div class="text1">
+                <h2>Pet Shop</h2>
+                <h3>Your best choice</h3>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="" onclick="Main()">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="icon" style="margin-right: 10px;">
+                <a href="#" onclick="Search()"><i class="fas fa-search"></i></a>
+                <a href="#" onclick="Login()"><i class="far fa-user"></i></a>
+                <a href="#" onclick="Wish_List_card()"><i class="far fa-heart"></i></a>
+                <a href="#" onclick="Card()"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="photo_2023-08-09_16-38-45.jpg" style="width:100%">
+            <div class="texts">
+                <h2>Treat Your Pets <br> to the Finest Food!</h2>
+                &emsp;<button onclick=" Dog()">SHOP NOW</button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="photo_2023-08-10_14-20-25.jpg" style="width:100%">
+            <div class="texts">
+                <h2>Delicious <br> Pet food !</h2>
+                &emsp;<button onclick=" Dog()">SHOP NOW</button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="cat_display_img.jpg" style="width:100%">
+            <div class="texts">
+                <h2>Delicious <br> Pet food !</h2>
+                &emsp;<button onclick=" Cat()">SHOP NOW</button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="fish_display_img.jpg" style="width:100%">
+            <div class="texts">
+                <h2>Delicious <br> Pet food !</h2>
+                &emsp;<button onclick=" Fish()">SHOP NOW</button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="smallpet_display_img.jpg" style="width:100%">
+            <div class="texts">
+                <h2>Delicious <br> Pet food !</h2>
+                &emsp;<button onclick=" Smallpets()">SHOP NOW</button>
+            </div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <div class="container">
+        <div class="category">
+            <div class="animal">
+                <div onclick=" Dog()" class="image">
+                    <img src="photo_2023-08-09_16-39-09.jpg" alt="">
+                </div>
+                <div class="image-text">
+                    <h2>Dogs</h2>
+                </div>
+            </div>
+            <div class="animal">
+                <div class="image">
+                    <img onclick=" Cat()" src="photo_2023-08-09_16-39-15.jpg" alt="">
+                </div>
+                <div class="image-text">
+                    <h2>Cats</h2>
+                </div>
+            </div>
+            <div class="animal">
+                <div class="image">
+                    <img onclick="Fish()" src="photo_2023-08-09_16-39-21.jpg" alt="">
+                </div>
+                <div class="image-text">
+                    <h2>Fish</h2>
+                </div>
+            </div>
+            <div class="animal">
+                <div class="image">
+                    <img onclick="Smallpets()" src="photo_2023-08-09_16-39-27.jpg" alt="">
+                </div>
+                <div class="image-text">
+                    <h2>Small Pets</h2>
+                </div>
+            </div>
+        </div>
+        <div class="items" style="margin-top: 20px;">
+            <div class="box">
+                <div class="sub_box">
+                    <div class="sub_box1">
+                        <div class="box1">
+                            <img src="photo_2023-08-09_16-39-34.jpg" alt="">
+                            <div class="icon-box">
+                                <a href=""><i class="far fa-heart"></i></a><br>
+                                <a href=""><i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <p>SmartHeart Fresh</p>
+                            <p>Sterilised Goat Milk</p>
+                            <p>Pouch for Pet 70ml</p>
+                        </div>
+                        <div class="box3">
+                            <h2>$0.90</h2>
+                            <div class="shop">
+                                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub_box">
+                    <div class="sub_box1">
+                        <div class="box1">
+                            <img style="width: 90%; border-radius: 10px;" src="photo_2023-08-09_16-39-41.jpg" alt="">
+                            <div class="icon-box">
+                                <a href=""><i class="far fa-heart"></i></a><br>
+                                <a href=""><i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <p>Cinnamoroll Cozy Pet</p>
+                            <p>House Kennel Bed</p>
+                            <p>Removeable and Washable.</p>
+                        </div>
+                        <div class="box3">
+                            <h2>$26.00</h2>
+                            <div class="shop">
+                                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="photo_2023-08-09_16-39-47.jpg" alt="">
+            </div>
+        </div>
+        <div class="items" style="margin-top: 20px;">
+
+            <div class="box">
+                <img src="photo_2023-08-09_16-39-53.jpg" alt="">
+            </div>
+
+            <div class="box">
+                
+                <div class="sub_box">
+                    <div class="sub_box1">
+                        <div class="box1">
+                            <img style="width: 90%; border-radius: 10px;" src="photo_2023-08-09_16-39-58.jpg" alt="">
+                            <div class="icon-box">
+                                <a href=""><i class="far fa-heart"></i></a><br>
+                                <a href=""><i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <p>3D Plush Cartoon Style Anti-Slip Knit</p>
+                            <p>Sock Indoor Wear Slip On</p>
+                            <p>Paw Protecter</p>
+                        </div>
+                        <div class="box3">
+                            <h2>$3.50</h2>
+                            <div class="shop">
+                                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub_box">
+                    <div class="sub_box1">
+                        <div class="box1">
+                            <img style="width: 90%;" src="photo_2023-08-09_16-40-02.jpg" alt="">
+                            <div class="icon-box">
+                                <a href=""><i class="far fa-heart"></i></a><br>
+                                <a href=""><i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <p>Pink Hat Cartoon</p>
+                            <p>Printed Collar for Small</p>
+                            <p>Breed</p>
+                        </div>
+                        <div class="box3">
+                            <h2>$1.20</h2>
+                            <div class="shop">
+                                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="items" style="margin-top: 20px;">
+            <div class="box">
+                <div class="sub_box">
+                    <div class="sub_box1">
+                        <div class="box1">
+                            <img src="milk1.jpg" alt="">
+                            <div class="icon-box">
+                                <a href=""><i class="far fa-heart"></i></a><br>
+                                <a href=""><i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <p>PetZgo 100% Pure</p>
+                            <p>Sterilized Goat Milk</p>
+                            <p>400ml</p>
+                        </div>
+                        <div class="box3">
+                            <h2>$2.75</h2>
+                            <div class="shop">
+                                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub_box">
+                    <div class="sub_box1">
+                        <div class="box1">
+                            <img style="width: 90%;"  src="milk2.jpg" alt="">
+                            <div class="icon-box">
+                                <a href=""><i class="far fa-heart"></i></a><br>
+                                <a href=""><i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <p>AG-SCIENCE Goat Gold</p>
+                            <p>Milk Replacer Powder for</p>
+                            <p>Puppy and Kitten,200g...</p>
+                        </div>
+                        <div class="box3">
+                            <h2>$8.50</h2>
+                            <div class="shop">
+                                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="photo_2023-08-09_16-40-07.jpg" alt="">
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="logo-name">
+                <h1>Pet Shop</h1>
+            </div>
+            <div class="icon-1">
+                <h1>Follow Us:</h1>
+                <a style="text-decoration: none; color: black; margin-bottom: 6px;" href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a style="text-decoration: none; color: black; margin-bottom: 6px;" href=""><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                <a style="text-decoration: none; color: black; margin-bottom: 6px;" href=""><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                <a style="text-decoration: none; color: black; margin-bottom: 6px;" href=""><i class="fa-brands fa-telegram fa-2xl"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="collom-1" style="display: flex; flex-direction: column; justify-content: center;">
+                <div class="phone" style="display: flex; margin-left: 15px; width: 350px; height: 50px; align-items: center;">
+                    <i class="fa-solid fa-phone fa-xl"></i>
+                    <h2 style="margin-top: 10px; margin-left: 40px;">+123 456 789</h2>
+                </div>
+
+                <div class="phone" style="display: flex; margin-left: 15px; width: 350px; height: 50px; align-items: center;">
+                    <i class="fa-solid fa-location-dot fa-xl"></i>
+                    <h2 style="margin-top: 10px; margin-left: 40px;">Phnom Penh</h2>
+                </div>
+
+                <div class="phone" style="display: flex; margin-left: 15px; width: 350px; height: 50px; align-items: center;">
+                    <i class="fa-regular fa-envelope fa-xl"></i>
+                    <h2 style="margin-top: 10px; margin-left: 40px;">team12@gmail.com</h2>
+                </div>
+                
+                <div class="phone" style="display: flex; margin-left: 15px; width: 350px; height: 50px; align-items: center;">
+                    <i class="fa-regular fa-clock fa-xl"></i>
+                    <h2 style="margin-top: 10px; margin-left: 40px;">Mon-Sat:8:00am - 9:00pm</h2>
+                </div>
+            </div>
+            <div class="collom-2" style="display: flex; flex-direction: column; justify-content: center;">
+                <div class="phone" style="display: flex; width: 350px; height: 50px; align-items: center;">
+                    
+                    <h2 style="margin-top: 10px;">About Us</h2>
+                </div>
+
+                <div class="phone" style="display: flex; width: 350px; height: 50px; align-items: center;">
+                    
+                    <h2 style="margin-top: 10px;">Contact Us</h2>
+                </div>
+
+                <div class="phone" style="display: flex; width: 350px; height: 50px; align-items: center;">
+                    
+                    <h2 style="margin-top: 10px;">Maintenance Mode</h2>
+                </div>
+                
+                <div class="phone" style="display: flex; width: 350px; height: 50px; align-items: center;">
+                    
+                    <h2 style="margin-top: 10px;">Privacy Policy</h2>
+                </div>
+            </div>
+            <div class="collom-3" style="display: flex; flex-direction: column; justify-content: center;">
+                <div class="phone" style="display: flex; width: 350px; height: 50px; align-items: center;">
+                    
+                    <h2 style="margin-top: 10px;">Helps</h2>
+                </div>
+
+                <div class="phone" style="display: flex; width: 350px; height: 50px; align-items: center;">
+                    
+                    <h2 style="margin-top: 10px;">Search</h2>
+                </div>
+
+                <div class="phone" style="display: flex; width: 350px; height: 50px; align-items: center;">
+                    
+                    <h2 style="margin-top: 10px;">Gift Card</h2>
+                </div>
+                
+                <div class="phone" style="display: flex; width: 350px; height: 50px; align-items: center;">
+                    
+                    <h2 style="margin-top: 10px;">Information</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <script src="Petto.js"></script>
+
+    <script src="https://kit.fontawesome.com/f02423e93b.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
